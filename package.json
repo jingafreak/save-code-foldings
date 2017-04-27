@@ -1,18 +1,17 @@
 {
   "name": "save-code-foldings",
   "main": "./lib/save-code-foldings",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "save-code-foldings:toggle"
-  },
-  "repository": "https://github.com/atom/save-code-foldings",
+  "version": "0.1.0",
+  "description": " Lets you save your code foldings, so they don't get lost after restarting.",
+  "keywords": [],
+  "activationCommands": [],
+  "repository": "https://github.com/jingafreak/save-code-foldings",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.73.0"
   }
 }
