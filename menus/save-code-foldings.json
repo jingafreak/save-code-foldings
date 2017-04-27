@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle save-code-foldings",
+        "command": "save-code-foldings:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Save Code Foldings",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "save-code-foldings:toggle"
+            },
+            {
+              "label": "Save",
+              "command": "save-code-foldings:save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
