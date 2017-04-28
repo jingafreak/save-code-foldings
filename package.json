@@ -10,8 +10,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "request": "^2.73.0"
-  }
+  "dependencies": {}
 }
